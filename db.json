@@ -1,19 +1,76 @@
 {
-  "posts": [
+  "houses": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "yad",
+      "ownerName": "daj",
+      "address": "lakj",
+      "areaCode": "823",
+      "rent": "5200",
+      "image": "545",
+      "preferredTenant": "married",
+      "undefined": "bachelor",
+      "id": 1
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "yash",
+      "ownerName": "raj",
+      "address": "lakhi",
+      "areaCode": "120",
+      "rent": "200",
+      "image": "a",
+      "preferredTenant": "bachlor",
+      "undefined": "bachelor",
+      "id": 2
+    },
+    {
+      "name": "a",
+      "ownerName": "b",
+      "address": "delhi",
+      "areaCode": "100",
+      "rent": "200",
+      "image": "a",
+      "preferredTenant": "married",
+      "id": 3
+    },
+    {
+      "name": "c",
+      "ownerName": "d",
+      "address": "patna",
+      "areaCode": "101",
+      "rent": "300",
+      "image": "c.com",
+      "preferredTenant": "bachelor",
+      "id": 4
+    },
+    {
+      "name": "k",
+      "ownerName": "y",
+      "address": "pune",
+      "areaCode": "103",
+      "rent": "500",
+      "image": "a",
+      "preferredTenant": "bachelor",
+      "id": 5
+    },
+    {
+      "name": "yash",
+      "ownerName": "shyam",
+      "address": "ranchi",
+      "areaCode": "108",
+      "rent": "600",
+      "image": "a",
+      "preferredTenant": "bachelor",
+      "id": 6
+    },
+    {
+      "name": "yash",
+      "ownerName": "raj",
+      "address": "lakhibag",
+      "areaCode": "823003",
+      "rent": "5000",
+      "image": "d",
+      "preferredTenant": "married",
+      "id": 7
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
