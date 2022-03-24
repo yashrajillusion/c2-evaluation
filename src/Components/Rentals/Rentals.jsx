@@ -31,7 +31,7 @@ export const Rentals = () => {
       <div className="sortingButtons">
         <button
           onClick={() => {
-            let arr = db.sort((a, b) => b.id - a.id);
+            let arr = db.sort((a, b) => -b.id + a.id);
             setDb([...arr]);
           }}
           className="sortById"
